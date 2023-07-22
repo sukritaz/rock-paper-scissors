@@ -1,0 +1,146 @@
+@import url('https://fonts.cdnfonts.com/css/horror-type');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #606C5D;
+    height: 100vh;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    background: url(images/cafe-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.head-line1 {
+    display: flex;
+    padding: 8px;
+    color: wheat;
+}
+
+.head-line2 {
+    display: flex;
+    padding: 8px;
+    color: #4a2c2a;
+}
+
+.head-line3 {
+    display: flex;
+    padding: 8px;
+    color: wheat;
+}
+
+.entry-screen-text-box, .game-screen-option-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background: rgba(96, 108, 93, 0.8);
+}
+
+button {
+    background-color: white;
+    border: #013220;
+    padding: 12px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 4px;
+    margin: 20px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: rgba(96, 108, 93, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    display: block;
+}
+
+.user-option img{
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0;
+    padding: 10px; 
+
+}
+
+.user-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-screen {
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: wheat;
+}
+
+#score {
+    display: none;
+    font-size: 32px;
+}
+
+.game-over-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    background: rgba(96, 108, 93, 0.8);
+    color: wheat;
+    text-align: center;
+    font-size: 32px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 18px;
+}
+
+.game-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-over-box {
+    display: none;
+}
+
+.game-over-options {
+    display: flex;
+    justify-content: space-evenly;
+}

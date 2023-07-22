@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win a Coffee?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nosifer&family=Ubuntu:wght@300&family=Ysabeau+SC:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script src="scripts.js"></script>
+    <section class="entry-screen" id="section1">
+        <div class="entry-screen-text-box">
+            <div class="head-line1">Want to Win a Cup of Coffee?</div>
+            <div class="head-line2">Try Your Chances</div>
+            <div class="head-line3">First to 5 Wins</div>
+            <div class="play-game-button">
+                <button id="play-game-button" onclick="playGame()">Play Game</button>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        &copy Sukrita Panigrahi
+    </div>
+    <section class="game-screen" id="section2">
+        <div class="game-screen-option-box">
+            <div class="user-inputs">
+                <button class="user-option" id="userRock" onclick="rock()">
+                    <img src="images/rock.jpg" alt="Rock">
+                </button>
+                <button class="user-option" id="userPaper" onclick="paper()">
+                    <img src="images/paper.jpg" alt="Paper">
+                </button>
+                <button class="user-option" id="userScissor" onclick="scissor()">
+                    <img src="images/scissors.jpg" alt="Scissor">
+                </button>
+            </div>
+            <button id="play-round-button" onclick="playRound()">Play round</button>
+            <div class="score-board">
+                <div id="prompt"></div>
+                <div id="score"></div>
+            </div>
+        </div>
+        <div class="game-over-box" id="game-over-box">
+            <div class="game-over" id="game-over"></div>
+            <div class="game-over-options">
+                <button class="game-over-yes" id="game-over-yes" onclick="playAgain()">Yes</button>
+                <button class="game-over-no" id="game-over-no" onclick="noPlayAgain()">No</button>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>
